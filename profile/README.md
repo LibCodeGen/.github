@@ -1,5 +1,5 @@
 # Lib Code Gen
-The focus of this organization is to make a small, modular and reusable code generation framework. It also serves as the master repo for instruction set generation independent of the ABI, runtime libraries or final hardware target.
+The focus of this organization is to make a small, modular and reusable code generation framework. [Lib Code Quick](https://github.com/LibCodeQuick) serves as the master repo for instruction set generation independent of the ABI, runtime libraries or final hardware targets.
 
 The largest address space for the smallest version of the library set is intended to be able to generate code succeessfully in 8 MiB of RAM. Larger versions can be added later but even newer platforms benefit from having codebases that fit into the level-1 code cache anyway so why make things huge for no reason?
 
